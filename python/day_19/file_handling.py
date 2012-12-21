@@ -3,6 +3,7 @@ File handling is an import part of programming which allows us to create, read, 
 '''
 import os
 import json
+import csv
 
 file = open('file_handling.py')
 print(file)
@@ -77,3 +78,25 @@ print(person_json)
 # Saving content as a JSON file
 with open("person.json", "w", encoding='utf-8') as json_file:
     json.dump(person_dictinoary, json_file, ensure_ascii=False, indent=5)
+    
+# File with csv extension
+
+import csv
+
+with open("sample.csv") as csv_file:
+    csv_reader = csv.reader(csv_file, delimiter=',')
+    line_count = 0
+
+    for row in csv_reader:
+        print(row)
+        if line_count == 0:
+            print(f'Column names are: {", ".join(row)}')
+            line_count += 1
+        else:
+            print(
+                f'\t{row[0]} is a teacher. He lives in {row[1]}, {row[2]}.'
+            )
+            line_count += 1
+    print(f'Number of lines: {line_count}')
+
+
