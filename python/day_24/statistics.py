@@ -46,3 +46,14 @@ print('python_tuple: ', python_tuple)
 numpy_array_from_tuple = np.array(python_tuple)
 print(type (numpy_array_from_tuple)) # <class 'numpy.ndarray'>
 print('numpy_array_from_tuple: ', numpy_array_from_tuple)
+
+# Shape of numpy array
+'''The shape method provide the shape of the array as a tuple. The first is the row and the second is the column. 
+If the array is just one dimensional it returns the size of the array.'''
+nums = np.array([1, 2, 3, 4, 5])
+print(nums)
+print('shape of nums: ', nums.shape)
+print(numpy_two_dimensional_list)
+print('shape of numpy_two_dimensional_list: ', numpy_two_dimensional_list.shape)
+three_by_four_array = np.array([[0, 1, 2, 3],[4,5,6,7], [8,9,10, 11]])
+print(three_by_four_array.shape)
