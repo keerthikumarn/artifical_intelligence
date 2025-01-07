@@ -36,3 +36,13 @@ np_to_list = numpy_array_from_list.tolist()
 print(type (np_to_list))
 print('one dimensional array:', np_to_list)
 print('two dimensional array: ', numpy_two_dimensional_list.tolist())
+
+
+# Creating numpy array from tuple
+python_tuple = (1,2,3,4,5)
+print(type(python_tuple))
+print('python_tuple: ', python_tuple)
+
+numpy_array_from_tuple = np.array(python_tuple)
+print(type (numpy_array_from_tuple)) # <class 'numpy.ndarray'>
+print('numpy_array_from_tuple: ', numpy_array_from_tuple)
