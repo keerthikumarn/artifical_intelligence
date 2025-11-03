@@ -113,7 +113,7 @@ crew = Crew(
 )
 
 inputs = {
-    "customer": "DeepLearningAI",
+    "customer": "Block Chain",
     "person": "Keerthi Kumar N",
     "inquiry": "I need help with setting up a Crew "
                "and kicking it off, specifically "
