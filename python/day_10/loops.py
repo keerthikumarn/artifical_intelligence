@@ -27,3 +27,33 @@ while counter1 < 5:
         continue
     print(counter1)
     counter1 = counter1 + 1
+    
+    
+# For loop
+numbers = [0, 1, 2, 3, 4, 5]
+print("Starting with the basic for loop")
+for number in numbers:
+    print(number)
+    
+
+language="Springboot"
+for letter in language:
+   print(letter)
+   
+person = {
+    'first_name':'Keerthi',
+    'last_name':'Kumar',
+    'age':40,
+    'country':'India',
+    'is_marred':True,
+    'skills':['Java', 'Springboot', 'Postgres', 'System Design', 'Python'],
+    'address':{
+        'street':'Space street',
+        'zipcode':'560061'
+    }
+}
+for key in person:
+    print(key)
+
+for key, value in person.items():
+    print(key, value)
