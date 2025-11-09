@@ -57,3 +57,8 @@ for key in person:
 
 for key, value in person.items():
     print(key, value)
+    
+    
+it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
+for company in it_companies:
+    print(company)
