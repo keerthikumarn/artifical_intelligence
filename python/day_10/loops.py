@@ -81,3 +81,8 @@ for key in person:
     if key == 'skills':
         for skill in person['skills']:
             print(skill)
+            
+            
+# to print a pyramid
+for i in range(1,10):
+    print("#" * i)
