@@ -26,3 +26,18 @@ def greet(name):
    return message
    
 print(greet("Keerthi Kumar"))
+
+def add_ten(num):
+    ten = 10
+    return num + ten
+print(add_ten(90))
+
+def square_number(x):
+    return x * x
+print(square_number(2))
+
+def area_of_circle (r):
+    PI = 3.14
+    area = PI * r ** 2
+    return area
+print(area_of_circle(10))
