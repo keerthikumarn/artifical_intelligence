@@ -19,7 +19,7 @@ print(add_two_numbers())
 print(generate_full_name())
 
 
-#function with parameters
+# function with parameters
 
 def greet(name):
    message = name + ', welcome to Python for Everyone!'
@@ -41,3 +41,12 @@ def area_of_circle (r):
     area = PI * r ** 2
     return area
 print(area_of_circle(10))
+
+# Passing Arguments with Key and Value
+
+def display_fullname(firstname, lastname):
+    space = ' '
+    full_name = firstname  + space + lastname
+    print(full_name)
+print(display_fullname(firstname = 'Keerthi', lastname = 'Kumar'))
+
