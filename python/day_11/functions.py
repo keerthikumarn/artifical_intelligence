@@ -17,3 +17,12 @@ def add_two_numbers ():
 print(add_two_numbers())
    
 print(generate_full_name())
+
+
+#function with parameters
+
+def greet(name):
+   message = name + ', welcome to Python for Everyone!'
+   return message
+   
+print(greet("Keerthi Kumar"))
