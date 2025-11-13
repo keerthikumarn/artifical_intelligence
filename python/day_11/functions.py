@@ -59,5 +59,10 @@ def is_even_number(number):
     return False
 
 print(is_even_number(31))
-print(is_even_number(36))  	
+print(is_even_number(36))
 
+def are_unique_numbers(numbers):
+    return len(numbers) == len(set(numbers))
+    
+print(are_unique_numbers([1, 2, 3, 4])) 	
+print(are_unique_numbers([1, 2, 1, 4])) 
