@@ -50,3 +50,14 @@ def display_fullname(firstname, lastname):
     print(full_name)
 print(display_fullname(firstname = 'Keerthi', lastname = 'Kumar'))
 
+
+# Returning boolean value
+def is_even_number(number):
+    if number % 2 == 0:
+       print("Even")
+       return True
+    return False
+
+print(is_even_number(31))
+print(is_even_number(36))  	
+
