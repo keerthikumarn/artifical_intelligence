@@ -17,3 +17,7 @@ print(numbers)
 # printing square of numbers
 squares = [number * number for number in range(10)]
 print(squares)
+
+# List of tuples
+tuples = [(number, number * number) for number in range (11)]
+print(tuples)
