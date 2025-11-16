@@ -26,3 +26,7 @@ print(tuples)
 list_of_lists = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 flattened_list = [ number for row in list_of_lists for number in row]
 print(flattened_list)
+
+# Lambda functions
+add_numbers=lambda num1, num2: num1 + num2
+print(add_numbers(45,22))
