@@ -30,3 +30,8 @@ print(flattened_list)
 # Lambda functions
 add_numbers=lambda num1, num2: num1 + num2
 print(add_numbers(45,22))
+
+square = lambda number : number ** 2
+print(square(3))
+cube = lambda x : x ** 3
+print(cube(3))
