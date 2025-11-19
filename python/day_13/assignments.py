@@ -26,3 +26,12 @@ for[(country, capital)] in countries:
    ])
    
 print(result)
+
+new_result = []
+for [(country, city)] in countries:
+    new_result.append({
+        'country': country.upper(),
+        'city': city.upper()
+    })
+
+print(new_result)
