@@ -8,3 +8,21 @@ print(filtered_numbers)
 list_of_lists = [[[1, 2, 3]], [[4, 5, 6]], [[7, 8, 9]]]
 flattened_list = [number for sublist_1 in list_of_lists for sublist_2 in sublist_1 for number in sublist_2]
 print(flattened_list)
+
+# Flattening the list - 1
+countries = [
+    [('Finland', 'Helsinki')],
+    [('Sweden', 'Stockholm')],
+    [('Norway', 'Oslo')]
+]
+
+result = []
+
+for[(country, capital)] in countries:
+   result.append([
+   	country.upper(),
+   	country[:3].upper(),
+   	capital.upper()
+   ])
+   
+print(result)
