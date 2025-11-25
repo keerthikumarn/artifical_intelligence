@@ -43,3 +43,8 @@ if company_to_check.upper() in [company.upper() for company in it_companies]:
     print(f"{company_to_check} exists in the list")
 else:
     print(f"{company_to_check} does not exist in the list")
+    
+
+# sorting the companies
+it_companies.sort()
+print(it_companies)
