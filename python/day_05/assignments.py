@@ -29,3 +29,9 @@ print("First Company:", first_company)
 print("Middle Company:", middle_company)
 print("Last Company:", last_company)
 
+it_companies.append("Amadeus")
+print("No. of companies in the list: ",len(it_companies))
+
+# change one of the it_company to upper case
+it_companies[2] = it_companies[2].upper()
+print(it_companies)
