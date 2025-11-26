@@ -35,3 +35,11 @@ print("No. of companies in the list: ",len(it_companies))
 # change one of the it_company to upper case
 it_companies[2] = it_companies[2].upper()
 print(it_companies)
+
+# Check if a certain company exists in the it_companies list.
+company_to_check = "Google"
+
+if company_to_check.upper() in [company.upper() for company in it_companies]:
+    print(f"{company_to_check} exists in the list")
+else:
+    print(f"{company_to_check} does not exist in the list")
