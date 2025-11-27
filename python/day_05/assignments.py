@@ -48,3 +48,15 @@ else:
 # sorting the companies
 it_companies.sort()
 print(it_companies)
+
+# Reverse the list in descending order using reverse() method
+it_companies.reverse()
+print(it_companies)
+
+# Slice out the first 3 companies from the list
+first_three_companies = it_companies[:3]
+print(first_three_companies)
+
+# Slice out the last 3 companies from the list
+last_three_companies = it_companies[-3:]
+print(last_three_companies)
