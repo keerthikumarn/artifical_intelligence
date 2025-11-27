@@ -60,3 +60,43 @@ print(first_three_companies)
 # Slice out the last 3 companies from the list
 last_three_companies = it_companies[-3:]
 print(last_three_companies)
+
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+
+# Sort the list
+ages.sort()
+print("Sorted Ages:", ages)
+
+# Find min and max age
+min_age = min(ages)
+max_age = max(ages)
+print("Min Age:", min_age)
+print("Max Age:", max_age)
+
+# Add min and max again to the list
+ages.append(min_age)
+ages.append(max_age)
+print("List after adding min and max again:", ages)
+
+# Find the median age
+ages.sort()
+n = len(ages)
+if n % 2 == 1:  # odd number of items
+    median_age = ages[n // 2]
+else:  # even number of items
+    median_age = (ages[n // 2 - 1] + ages[n // 2]) / 2
+print("Median Age:", median_age)
+
+# Find the average age
+average_age = sum(ages) / len(ages)
+print("Average Age:", average_age)
+
+# Find the range of ages
+age_range = max_age - min_age
+print("Age Range:", age_range)
+
+# Compare (min - average) and (max - average)
+comparison_min = abs(min_age - average_age)
+comparison_max = abs(max_age - average_age)
+print("abs(min - average):", comparison_min)
+print("abs(max - average):", comparison_max)
