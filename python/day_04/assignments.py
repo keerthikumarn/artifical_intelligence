@@ -29,6 +29,13 @@ print("First index of because: ",index_of_because)
 index_of_last_because = sentence.rindex('because')
 print("Last index of because: ", index_of_last_because)
 
+'''
+Use a tab escape sequence to write the following lines.
+Name      Age     Country   City
+Keerthi   40      India     Bangalore
+'''
+print("Name\tAge\tCountry\tCity")
+print("Keerthi\t40\tIndia\tBangalore")
 
 
 
