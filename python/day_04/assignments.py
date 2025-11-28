@@ -13,3 +13,15 @@ words1 = ["Coding", "for", "All"]
 
 coding = " ".join(words1)
 print(coding)
+
+index_of_C = coding.index('C')
+index_of_f = coding.index('f')
+print(index_of_C)
+print(index_of_f)
+
+
+
+
+
+
+
