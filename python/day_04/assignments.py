@@ -2,3 +2,7 @@
 words = ["Thirty", "Days", "Of", "Python"]
 result = " ".join(words)
 print(result)
+
+company="test_company"
+print("Company name: ", company)
+print("Length of the String: ", company, "is: ", len(company))
