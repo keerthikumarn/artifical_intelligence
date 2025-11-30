@@ -39,3 +39,11 @@ distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
 print("Slope:", slope)
 print("Euclidean Distance:", distance)
 
+# Prompt user for hours and rate
+hours = float(input("Enter hours: "))
+rate = float(input("Enter rate per hour: "))
+
+# Calculate weekly earning
+earning = hours * rate
+
+print("Your weekly earning is", earning)
