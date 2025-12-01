@@ -1,3 +1,5 @@
+import math
+
 # Declare your age as an integer variable
 age = 40
 
@@ -24,3 +26,16 @@ side_c = float(input("Enter the side C of the triangle: "))
 
 perimeter = side_a + side_b + side_c
 print("Perimeter of the triangle is: ", perimeter)
+
+#Slope is (m = y2-y1/x2-x1). Find the slope and Euclidean distance between point (2, 2) and point (6,10)
+x1, y1 = 2, 2
+x2, y2 = 6, 10
+
+slope = (y2 - y1) / (x2 - x1)
+
+# Euclidean Distance
+distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+
+print("Slope:", slope)
+print("Euclidean Distance:", distance)
+
