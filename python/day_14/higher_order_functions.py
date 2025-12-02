@@ -58,3 +58,28 @@ def uppercase_decorator(function):
    
 greeting_message = uppercase_decorator(greet)
 print(greeting_message())
+
+# Applying multiple decorators to a single function
+
+# First Decorator
+def uppercase_decorator(function):
+    def wrapper():
+        func = function()
+        make_uppercase = func.upper()
+        return make_uppercase
+    return wrapper
+
+# Second decorator
+def split_string_decorator(function):
+    def wrapper():
+        func = function()
+        splitted_string = func.split()
+        return splitted_string
+
+    return wrapper
+
+@split_string_decorator
+@uppercase_decorator
+def greeting():
+    return 'Welcome to the world of python programming!'
+print(greeting())
