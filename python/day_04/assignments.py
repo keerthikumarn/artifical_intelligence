@@ -25,7 +25,9 @@ Use index or find to find the position of the first occurrence of the word 'beca
 '''
 sentence = 'You cannot end a sentence with because because because is a conjunction'
 index_of_because = sentence.find('because')
-print(index_of_because)
+print("First index of because: ",index_of_because)
+index_of_last_because = sentence.rindex('because')
+print("Last index of because: ", index_of_last_because)
 
 
 
