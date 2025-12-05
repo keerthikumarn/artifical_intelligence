@@ -17,4 +17,9 @@ import math
 
 # KeyError
 user = {'name':'Keerthi Kumar N', 'age':40, 'country':'India'}
-user['email']
+# user['email']
+
+# TypeError
+# 43 + "32"
+
+from math import power
