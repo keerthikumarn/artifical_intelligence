@@ -1,5 +1,6 @@
 import datetime
 from datetime import datetime
+from datetime import date
 
 print(dir(datetime))
 
@@ -46,3 +47,13 @@ date_string = "5 December, 2019"
 print("date_string =", date_string)
 date_object = datetime.strptime(date_string, "%d %B, %Y")
 print("date_object =", date_object)
+
+# Using date from datetime
+d = date(2020, 1, 1)
+print(d)
+print('Current date:', d.today())    # 2019-12-05
+# date object of today's date
+today = date.today()
+print("Current year:", today.year)   # 2019
+print("Current month:", today.month) # 12
+print("Current day:", today.day)     # 5
