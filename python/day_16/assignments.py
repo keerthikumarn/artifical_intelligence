@@ -9,3 +9,7 @@ print("Year:", now.year)
 print("Hour:", now.hour)
 print("Minute:", now.minute)
 print("Timestamp:", now.timestamp())
+
+# Format the current date using this format: "%m/%d/%Y, %H:%M:%S")
+formatted_date = now.strftime("%m/%d/%Y, %H:%M:%S")
+print("Formatted Date:", formatted_date)
