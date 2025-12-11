@@ -47,3 +47,10 @@ def sum_of_five_numbers(num1, num2, num3, num4, num5):
 num_list = [1 ,3, 5, 7, 9]
 # print(sum_of_five_numbers(num_list))
 print(sum_of_five_numbers(*num_list)) 
+
+countries = ['India', 'Australia', 'France', 'England', 'NewZealand']
+ind, aus, fra, *rest = countries
+print(ind, aus, fra, rest)
+numbers = [1, 2, 3, 4, 5, 6, 7]
+one, *middle, last = numbers
+print(one, middle, last)   
