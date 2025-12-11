@@ -38,3 +38,12 @@ else:
     print('I usually run with the try block')
 finally:
     print('I alway run.')
+    
+    
+# Packing and Unpacking Arguments in Python
+def sum_of_five_numbers(num1, num2, num3, num4, num5):
+   return num1 + num2 + num3 + num4 + num5
+   
+num_list = [1 ,3, 5, 7, 9]
+# print(sum_of_five_numbers(num_list))
+print(sum_of_five_numbers(*num_list)) 
