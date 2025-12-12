@@ -64,7 +64,16 @@ print(lst)          # [0, 1, 2, 3, 4, 5, 6, 7]
 country_lst_one = ['Finland', 'Sweden', 'Norway']
 country_lst_two = ['Denmark', 'Iceland']
 nordic_countries = [*country_lst_one, *country_lst_two]
-print(nordic_countries) 
+print(nordic_countries)
+
+# Zip
+fruits = ['banana', 'butter fruit', 'mango', 'dragon fruit', 'gauva']                    
+vegetables = ['Tomato', 'Brinjal', 'Cabbage','Onion', 'Carrot']
+fruits_and_veges = []
+for f, v in zip(fruits, vegetables):
+    fruits_and_veges.append({'fruit':f, 'veg':v})
+print(fruits_and_veges)
+
 
 
 
