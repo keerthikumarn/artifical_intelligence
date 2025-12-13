@@ -20,3 +20,23 @@ print(substring)
 # not matching
 not_match = re.match('I like to teach', txt, re.I)
 print(not_match) 
+
+
+txt = '''Python is the most beautiful language that a human being has ever created.
+I recommend python for a first programming language'''
+
+# It return a list
+matches = re.findall('language', txt, re.I)
+print(matches)  # ['language', 'language']
+
+matches = re.findall('python', txt, re.I)
+print(matches)  # ['Python', 'python']
+
+
+# without custom pattern
+matches = re.findall('Python|python', txt)
+print(matches)  # ['Python', 'python']
+
+
+matches = re.findall('[Pp]ython', txt)
+print(matches)  # ['Python', 'python']
