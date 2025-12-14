@@ -69,6 +69,14 @@ regex_pattern = r'[Aa]pple' # this square bracket mean either A or a
 txt = 'Apple and banana are fruits. An old cliche says an apple a day a doctor way has been replaced by a banana a day keeps the doctor far far away.'
 matches = re.findall(regex_pattern, txt)
 print(matches)
+
+
+# If we want to look for the banana, we write the pattern as follows:
+
+regex_pattern = r'[Aa]pple|[Bb]anana' # this square bracket means either A or a
+txt = 'Apple and banana are fruits. An old cliche says an apple a day a doctor way has been replaced by a banana a day keeps the doctor far far away.'
+matches = re.findall(regex_pattern, txt)
+print(matches)  # ['Apple', 'banana', 'apple', 'banana']
 txt = '''I am teacher and  I love teaching.
 There is nothing as rewarding as educating and empowering people.
 I found teaching more interesting than any other jobs.
