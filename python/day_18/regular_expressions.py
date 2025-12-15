@@ -82,3 +82,9 @@ There is nothing as rewarding as educating and empowering people.
 I found teaching more interesting than any other jobs.
 Does this motivate you to be a teacher?'''
 print(re.split('\n', txt))
+
+# Escape character(\) in RegEx
+regex_pattern = r'\d'
+txt = 'This regular expression example was made on December 6,  2019 and revised on July 8, 2021'
+matches = re.findall(regex_pattern, txt)
+print(matches)
