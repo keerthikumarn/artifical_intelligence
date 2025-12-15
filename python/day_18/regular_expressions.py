@@ -50,6 +50,19 @@ D%o%es thi%s m%ot%iv%a%te %y%o%u to b%e a t%e%a%cher?'''
 matches = re.sub('%', '', txt)
 print(matches)
 
+# Writing regex patterns
+regex_pattern = r'apple'
+txt = 'Apple and banana are fruits. An old cliche says an apple a day a doctor way has been replaced by a banana a day keeps the doctor far far away. '
+matches = re.findall(regex_pattern, txt)
+print(matches)  # ['apple']
+
+# To make case insensitive adding flag '
+matches = re.findall(regex_pattern, txt, re.I)
+print(matches)  # ['Apple', 'apple']
+# or we can use a set of characters method
+regex_pattern = r'[Aa]pple'  # this mean the first letter could be Apple or apple
+matches = re.findall(regex_pattern, txt)
+print(matches)  # ['Apple', 'apple']
 txt = '''I am teacher and  I love teaching.
 There is nothing as rewarding as educating and empowering people.
 I found teaching more interesting than any other jobs.
