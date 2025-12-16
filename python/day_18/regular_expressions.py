@@ -125,5 +125,20 @@ regex_pattern = r'\d{4}'
 matches = re.findall(regex_pattern, txt)
 print(matches)
 
+text = 'This regular expression example was made on December 6,  2019 and revised on July 8, 2021'
+print("I am here..")
+regex_patt = r'\d{1,4}' # 1 to 4
+matching_pattern = re.findall(regex_patt, text)
+print(matching_pattern)
 
+# Cart
+txt = 'This regular expression example was made on December 6,  2019 and revised on July 8, 2021'
+regex_pattern = r'^This'  # ^ means starts with
+matches = re.findall(regex_pattern, txt)
+print(matches)  # ['This']
+
+txt = 'This regular expression example was made on December 6,  2019 and revised on July 8, 2021 and 1985'
+regex_pattern = r'[^A-Za-z ]+'  # ^ in set character means negation, not A to Z, not a to z, no space
+matches = re.findall(regex_pattern, txt)
+print(matches)  # ['6,', '2019', '8', '2021']
 
