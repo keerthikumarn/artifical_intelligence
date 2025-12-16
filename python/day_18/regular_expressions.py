@@ -119,4 +119,11 @@ regex_pattern = r'[Ee]-?mail'  # ? means here that '-' is optional
 matches = re.findall(regex_pattern, txt)
 print(matches)
 
+# Quantifier in Regex. We can specify the length of the substring we are looking for in a text, using a curly bracket. 
+txt = 'This regular expression example was made on December 6,  2019 and revised on July 8, 2021'
+regex_pattern = r'\d{4}'
+matches = re.findall(regex_pattern, txt)
+print(matches)
+
+
 
