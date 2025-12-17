@@ -1,5 +1,6 @@
 import re
 from collections import Counter
+import keyword
 
 
 '''
@@ -26,3 +27,23 @@ result = sorted(
 
 print(result)
 
+'''
+is_valid_variable('first_name') # True
+is_valid_variable('first-name') # False
+is_valid_variable('1first_name') # False
+is_valid_variable('firstname') # True
+'''
+
+def is_valid_variable(name):
+    pattern = r'^[a-zA-Z_][a-zA-Z0-9_]*$'
+    return bool(re.match(pattern, name)) and not keyword.iskeyword(name)
+    
+# Test cases
+print(is_valid_variable('first_name'))      # True
+print(is_valid_variable('first-name'))      # False (contains hyphen)
+print(is_valid_variable('1first_name'))     # False (starts with digit)
+print(is_valid_variable('firstname'))       # True
+print(is_valid_variable('_private'))        # True (underscore is valid)
+print(is_valid_variable('class'))           # False (Python keyword)
+print(is_valid_variable('my_var_123'))      # True
+print(is_valid_variable(''))                # False (empty string)
