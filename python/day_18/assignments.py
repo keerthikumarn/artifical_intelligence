@@ -47,3 +47,22 @@ print(is_valid_variable('_private'))        # True (underscore is valid)
 print(is_valid_variable('class'))           # False (Python keyword)
 print(is_valid_variable('my_var_123'))      # True
 print(is_valid_variable(''))                # False (empty string)
+
+
+def clean_text(text):
+    cleaned_text = re.sub(r'[^a-zA-Z0-9\s]', '', text)
+    return cleaned_text
+
+def most_frequent_words(text):
+    words = text.lower().split()
+    word_count = Counter(words)
+    most_common_words =  word_count.most_common(3)
+    return [(count, word) for word, count in most_common_words]
+    
+# Test with the provided example
+sentence = '''%I $am@% a %tea@cher%, &and& I lo%#ve %tea@ching%;. There $is nothing; &as& mo@re rewarding as educa@ting &and& @emp%o@wering peo@ple. ;I found tea@ching m%o@re interesting tha@n any other %jo@bs. %Do@es thi%s mo@tivate yo@u to be a tea@cher!?'''
+
+cleaned_text = clean_text(sentence)
+print(cleaned_text)
+print()
+print(most_frequent_words(cleaned_text))
