@@ -8,5 +8,11 @@ print(file)
 txt = file.read()
 print(type(txt))
 print(txt)
+#file.close()
+
+# readlines(): read all the text line by line and returns a list of lines
+lines = file.readlines()
+print(type(lines))
+print(lines)
 file.close()
 
