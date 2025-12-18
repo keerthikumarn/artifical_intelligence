@@ -16,3 +16,8 @@ print(type(lines))
 print(lines)
 file.close()
 
+
+with open('sample.txt') as f:
+    lines = f.read().splitlines()
+    print(type(lines))
+    print(lines)
