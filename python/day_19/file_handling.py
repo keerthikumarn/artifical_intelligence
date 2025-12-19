@@ -21,3 +21,19 @@ with open('sample.txt') as f:
     lines = f.read().splitlines()
     print(type(lines))
     print(lines)
+    
+# using splitlines
+file = open("sample.txt");
+lines = file.read().splitlines()
+print(type(lines))
+print(lines)
+file.close()
+
+# Opening Files for Writing and Updating
+with open("sample.txt", 'a') as new_file:
+     new_file.write('Appending this new text..')
+     
+# The method below creates a new file, if the file does not exist:
+
+with open('writing_file_example.txt','w') as f:
+    f.write('This text will be written in a newly created file')
