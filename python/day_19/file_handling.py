@@ -1,6 +1,7 @@
 '''
 File handling is an import part of programming which allows us to create, read, update and delete files. In Python to handle data we use open() built-in function.
 '''
+import os
 
 file = open('file_handling.py')
 print(file)
@@ -37,3 +38,14 @@ with open("sample.txt", 'a') as new_file:
 
 with open('writing_file_example.txt','w') as f:
     f.write('This text will be written in a newly created file')
+    
+# Deleting files
+if os.path.exists('example1.txt'):
+    os.remove('example1.txt')
+else:
+    print('The file does not exist')
+    
+if os.path.exists('writing_file_example.txt'):
+    os.remove('writing_file_example.txt')
+else:
+    print('The file does not exist')
