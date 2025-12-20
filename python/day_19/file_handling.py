@@ -67,8 +67,13 @@ person_json = '''{
     "skills": ["Java/J2EE", "System Design","Leadership"]
 }'''
 # let's change JSON to dictionary
-person_dct = json.loads(person_json)
-print(type(person_dct))
-print(person_dct)
-print(person_dct['name'])
-print(person_dct['skills'])
+person_dictinoary = json.loads(person_json)
+print(type(person_dictinoary))
+print(person_dictinoary)
+print(person_dictinoary['name'])
+print(person_dictinoary['skills'])
+print(person_json)
+
+# Saving content as a JSON file
+with open("person.json", "w", encoding='utf-8') as json_file:
+    json.dump(person_dictinoary, json_file, ensure_ascii=False, indent=5)
