@@ -2,6 +2,7 @@
 File handling is an import part of programming which allows us to create, read, update and delete files. In Python to handle data we use open() built-in function.
 '''
 import os
+import json
 
 file = open('file_handling.py')
 print(file)
@@ -49,3 +50,25 @@ if os.path.exists('writing_file_example.txt'):
     os.remove('writing_file_example.txt')
 else:
     print('The file does not exist')
+    
+# File with JSON extension
+
+person_dict= {
+    "name":"Keerthi Kumar",
+    "country":"India",
+    "city":"Bangalore",
+    "skills":["Java/J2EE", "System Design","Leadership"]
+}
+
+person_json = '''{
+    "name": "Keerthi Kumar",
+    "country": "India",
+    "city": "Bangalore",
+    "skills": ["Java/J2EE", "System Design","Leadership"]
+}'''
+# let's change JSON to dictionary
+person_dct = json.loads(person_json)
+print(type(person_dct))
+print(person_dct)
+print(person_dct['name'])
+print(person_dct['skills'])
