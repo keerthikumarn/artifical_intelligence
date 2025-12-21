@@ -28,6 +28,13 @@ url_lists = [
 # Reading data from a URL
 url = 'https://www.w3.org/TR/PNG/iso_8859-1.txt'
 print("getting the response from url: ", url)
-response = requests.get(url)
-print(response)
+# response = requests.get(url)
+#print(response)
 
+# countries URL
+countries = 'https://restcountries.com/v3.1/all?fields=name'  # countries api
+response = requests.get(url)  # opening a network and fetching a data
+print(response) # response object
+print(response.status_code)  # status code, success:200
+#countries = response.json()
+#print(countries[:1])
