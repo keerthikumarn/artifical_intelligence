@@ -6,4 +6,4 @@ readline(): read only the first line
 readlines(): read all the text line by line and returns a list of lines
 
 
-Appending this new text..Appending this new text..Appending this new text..Appending this new text..Appending this new text..Appending this new text..Appending this new text..Appending this new text..Appending this new text..Appending this new text..
+Appending this new text..Appending this new text..Appending this new text..Appending this new text..Appending this new text..
