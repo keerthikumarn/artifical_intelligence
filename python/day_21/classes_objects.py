@@ -10,10 +10,14 @@ p = Person()
 print(p)
 
 class Student:
-      def __init__ (self, name):
+      def __init__ (self, name, age, email):
         # self allows to attach parameter to the class
           self.name =name
+          self.age = age
+          self.email = email
 
-stu = Student('Keerthi Kumar')
+stu = Student('Keerthi Kumar', 40, 'keerthi@no-reply.com')
 print(stu.name)
+print(stu.age)
+print(stu.email)
 print(stu)
