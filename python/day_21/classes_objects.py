@@ -9,15 +9,20 @@ print(Person)
 p = Person()
 print(p)
 
+# Object Methods
 class Student:
       def __init__ (self, name, age, email):
         # self allows to attach parameter to the class
           self.name =name
           self.age = age
           self.email = email
+          
+      def student_info(self):
+        return f'{self.name} is {self.age} years old. His email id is: {self.email}'
 
 stu = Student('Keerthi Kumar', 40, 'keerthi@no-reply.com')
 print(stu.name)
 print(stu.age)
 print(stu.email)
+print(stu.student_info())
 print(stu)
