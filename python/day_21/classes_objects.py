@@ -16,9 +16,13 @@ class Student:
           self.name =name
           self.age = age
           self.email = email
+          self.skills = []
           
       def student_info(self):
         return f'{self.name} is {self.age} years old. His email id is: {self.email}'
+        
+      def add_skill(self, skill):
+          self.skills.append(skill)
 
 stu = Student('Keerthi Kumar', 40, 'keerthi@no-reply.com')
 print(stu.name)
@@ -26,3 +30,17 @@ print(stu.age)
 print(stu.email)
 print(stu.student_info())
 print(stu)
+
+s1 = Student('Keerthi Kumar', 40, 'keerthi@no-reply.com')
+s2 = Student('Rohith', 45, 'rohith@no-reply.com')
+print(s1.student_info())
+s1.add_skill('JavaScript')
+s1.add_skill('React')
+s1.add_skill('Python')
+print(s1.skills)
+
+print(s2.student_info())
+s2.add_skill('Organizing')
+s2.add_skill('Marketing')
+s2.add_skill('Digital Marketing')
+print(s2.skills)
