@@ -1,7 +1,7 @@
 it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
 A = {19, 22, 24, 20, 25, 26}
 B = {19, 22, 20, 25, 26, 24, 28, 27}
-age = [22, 19, 24, 25, 26, 24, 25, 24]
+ages = [22, 19, 24, 25, 26, 24, 25, 24]
 
 '''
 Find the length of the set it_companies
@@ -45,3 +45,23 @@ print("B joined with A:", B | A)
 
 # 6. Symmetric difference between A and B
 print("Symmetric Difference:", A.symmetric_difference(B))
+
+'''
+Convert the ages to a set and compare the length of the list and the set, which one is bigger?
+Explain the difference between the following data types: string, list, tuple and set
+I am a teacher and I love to inspire and teach people. How many unique words have been used in the sentence? Use the split methods and set to get the unique words.
+'''
+
+ages_list_length = len(ages)
+ages_set = set(ages)
+ages_set_length = len(ages_set)
+
+print("Length of ages list:", ages_list_length)
+print("Length of ages set:", ages_set_length)
+
+if ages_list_length > ages_set_length:
+    print("The list is bigger because it contains duplicate values.")
+else:
+    print("The set is bigger.")
+
+
