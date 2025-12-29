@@ -14,3 +14,6 @@ for num in range(1, 8):
     
 for _ in range(8):
     print("# " * 8)
+    
+for num in range(0, 11):
+    print(f"{num} x {num} = {num * num}")
