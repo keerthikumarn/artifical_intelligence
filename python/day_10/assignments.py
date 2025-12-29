@@ -8,3 +8,9 @@ num = 0
 while num <= 10:
     print(num)
     num+=1
+    
+for num in range(1, 8):
+    print("#" * num)
+    
+for _ in range(8):
+    print("# " * 8)
