@@ -17,3 +17,10 @@ for _ in range(8):
     
 for num in range(0, 11):
     print(f"{num} x {num} = {num * num}")
+    
+#Iterate through the list, ['Python', 'Numpy','Pandas','Django', 'Flask'] using a for loop and print out the items.
+languages = ['Python', 'Numpy', 'Pandas', 'Django', 'Flask', 'Java']
+
+for language in languages:
+    print(language)
+
