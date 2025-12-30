@@ -23,4 +23,14 @@ languages = ['Python', 'Numpy', 'Pandas', 'Django', 'Flask', 'Java']
 
 for language in languages:
     print(language)
+    
+# Use for loop to iterate from 0 to 100 and print only even numbers
 
+for num in range(0, 101):
+    if num % 2 == 0:
+       print(num)
+
+# Use for loop to iterate from 0 to 100 and print only odd numbers
+for num in range(0, 101):
+    if num % 2 != 0:
+       print(num)
