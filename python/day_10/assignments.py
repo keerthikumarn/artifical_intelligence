@@ -42,3 +42,19 @@ for num in range(0, 101):
     total += num
 
 print(total)
+
+'''
+Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+The sum of all evens is 2550. And the sum of all odds is 2500.
+'''
+sum_of_even_nums = 0
+sum_of_odd_nums = 0
+
+for num in range(0, 101):
+    if num % 2 == 0:
+        sum_of_even_nums += num
+    else:
+        sum_of_odd_nums += num
+
+print("The sum of all evens is", sum_of_even_nums)
+print("The sum of all odds is", sum_of_odd_nums)
