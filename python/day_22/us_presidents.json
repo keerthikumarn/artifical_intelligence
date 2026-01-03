@@ -1,0 +1,378 @@
+[
+    {
+        "order": "1",
+        "name": "",
+        "lifespan": "George Washington(1732–1799)[19]",
+        "term": "April 30, 1789–March 4, 1797",
+        "party": "",
+        "vice_president": "Unaffiliated"
+    },
+    {
+        "order": "2",
+        "name": "",
+        "lifespan": "John Adams(1735–1826)[21]",
+        "term": "March 4, 1797–March 4, 1801",
+        "party": "",
+        "vice_president": "Federalist"
+    },
+    {
+        "order": "3",
+        "name": "",
+        "lifespan": "Thomas Jefferson(1743–1826)[23]",
+        "term": "March 4, 1801–March 4, 1809",
+        "party": "",
+        "vice_president": "Democratic-Republican"
+    },
+    {
+        "order": "4",
+        "name": "",
+        "lifespan": "James Madison(1751–1836)[24]",
+        "term": "March 4, 1809–March 4, 1817",
+        "party": "",
+        "vice_president": "Democratic-Republican"
+    },
+    {
+        "order": "5",
+        "name": "",
+        "lifespan": "James Monroe(1758–1831)[26]",
+        "term": "March 4, 1817–March 4, 1825",
+        "party": "",
+        "vice_president": "Democratic-Republican"
+    },
+    {
+        "order": "6",
+        "name": "",
+        "lifespan": "John Quincy Adams(1767–1848)[27]",
+        "term": "March 4, 1825–March 4, 1829",
+        "party": "",
+        "vice_president": "Democratic-Republican[f]"
+    },
+    {
+        "order": "7",
+        "name": "",
+        "lifespan": "Andrew Jackson(1767–1845)[30]",
+        "term": "March 4, 1829–March 4, 1837",
+        "party": "",
+        "vice_president": "Democratic"
+    },
+    {
+        "order": "8",
+        "name": "",
+        "lifespan": "Martin Van Buren(1782–1862)[31]",
+        "term": "March 4, 1837–March 4, 1841",
+        "party": "",
+        "vice_president": "Democratic"
+    },
+    {
+        "order": "9",
+        "name": "",
+        "lifespan": "William Henry Harrison(1773–1841)[32]",
+        "term": "March 4, 1841–April 4, 1841[e]",
+        "party": "",
+        "vice_president": "Whig"
+    },
+    {
+        "order": "10",
+        "name": "",
+        "lifespan": "John Tyler(1790–1862)[33]",
+        "term": "April 4, 1841[i]–March 4, 1845",
+        "party": "",
+        "vice_president": "Whig[j]"
+    },
+    {
+        "order": "11",
+        "name": "",
+        "lifespan": "James K. Polk(1795–1849)[36]",
+        "term": "March 4, 1845–March 4, 1849",
+        "party": "",
+        "vice_president": "Democratic"
+    },
+    {
+        "order": "12",
+        "name": "",
+        "lifespan": "Zachary Taylor(1784–1850)[37]",
+        "term": "March 4, 1849–July 9, 1850[e]",
+        "party": "",
+        "vice_president": "Whig"
+    },
+    {
+        "order": "13",
+        "name": "",
+        "lifespan": "Millard Fillmore(1800–1874)[38]",
+        "term": "July 9, 1850[k]–March 4, 1853",
+        "party": "",
+        "vice_president": "Whig"
+    },
+    {
+        "order": "14",
+        "name": "",
+        "lifespan": "Franklin Pierce(1804–1869)[40]",
+        "term": "March 4, 1853–March 4, 1857",
+        "party": "",
+        "vice_president": "Democratic"
+    },
+    {
+        "order": "15",
+        "name": "",
+        "lifespan": "James Buchanan(1791–1868)[41]",
+        "term": "March 4, 1857–March 4, 1861",
+        "party": "",
+        "vice_president": "Democratic"
+    },
+    {
+        "order": "16",
+        "name": "",
+        "lifespan": "Abraham Lincoln(1809–1865)[42]",
+        "term": "March 4, 1861–April 15, 1865[e]",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "17",
+        "name": "",
+        "lifespan": "Andrew Johnson(1808–1875)[44]",
+        "term": "April 15, 1865[m]–March 4, 1869",
+        "party": "",
+        "vice_president": "National Union[n]"
+    },
+    {
+        "order": "18",
+        "name": "",
+        "lifespan": "Ulysses S. Grant(1822–1885)[45]",
+        "term": "March 4, 1869–March 4, 1877",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "19",
+        "name": "",
+        "lifespan": "Rutherford B. Hayes(1822–1893)[46]",
+        "term": "March 4, 1877–March 4, 1881",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "20",
+        "name": "",
+        "lifespan": "James A. Garfield(1831–1881)[47]",
+        "term": "March 4, 1881–September 19, 1881[e]",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "21",
+        "name": "",
+        "lifespan": "Chester A. Arthur(1829–1886)[48]",
+        "term": "September 19, 1881[o]–March 4, 1885",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "22",
+        "name": "",
+        "lifespan": "Grover Cleveland(1837–1908)1st term[50]",
+        "term": "March 4, 1885–March 4, 1889",
+        "party": "",
+        "vice_president": "Democratic"
+    },
+    {
+        "order": "23",
+        "name": "",
+        "lifespan": "Benjamin Harrison(1833–1901)[51]",
+        "term": "March 4, 1889–March 4, 1893",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "24",
+        "name": "",
+        "lifespan": "Grover Cleveland(1837–1908)2nd term[50]",
+        "term": "March 4, 1893–March 4, 1897",
+        "party": "",
+        "vice_president": "Democratic"
+    },
+    {
+        "order": "25",
+        "name": "",
+        "lifespan": "William McKinley(1843–1901)[52]",
+        "term": "March 4, 1897–September 14, 1901[e]",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "26",
+        "name": "",
+        "lifespan": "Theodore Roosevelt(1858–1919)[53]",
+        "term": "September 14, 1901[p]–March 4, 1909",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "27",
+        "name": "",
+        "lifespan": "William Howard Taft(1857–1930)[55]",
+        "term": "March 4, 1909–March 4, 1913",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "28",
+        "name": "",
+        "lifespan": "Woodrow Wilson(1856–1924)[56]",
+        "term": "March 4, 1913–March 4, 1921",
+        "party": "",
+        "vice_president": "Democratic"
+    },
+    {
+        "order": "29",
+        "name": "",
+        "lifespan": "Warren G. Harding(1865–1923)[57]",
+        "term": "March 4, 1921–August 2, 1923[e]",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "30",
+        "name": "",
+        "lifespan": "Calvin Coolidge(1872–1933)[58]",
+        "term": "August 2, 1923[q]–March 4, 1929",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "31",
+        "name": "",
+        "lifespan": "Herbert Hoover(1874–1964)[60]",
+        "term": "March 4, 1929–March 4, 1933",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "32",
+        "name": "",
+        "lifespan": "Franklin D. Roosevelt(1882–1945)[61]",
+        "term": "March 4, 1933–April 12, 1945[e]",
+        "party": "",
+        "vice_president": "Democratic"
+    },
+    {
+        "order": "33",
+        "name": "",
+        "lifespan": "Harry S. Truman(1884–1972)[62]",
+        "term": "April 12, 1945[r]–January 20, 1953",
+        "party": "",
+        "vice_president": "Democratic"
+    },
+    {
+        "order": "34",
+        "name": "",
+        "lifespan": "Dwight D. Eisenhower(1890–1969)[64]",
+        "term": "January 20, 1953–January 20, 1961",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "35",
+        "name": "",
+        "lifespan": "John F. Kennedy(1917–1963)[65]",
+        "term": "January 20, 1961–November 22, 1963[e]",
+        "party": "",
+        "vice_president": "Democratic"
+    },
+    {
+        "order": "36",
+        "name": "",
+        "lifespan": "Lyndon B. Johnson(1908–1973)[66]",
+        "term": "November 22, 1963[s]–January 20, 1969",
+        "party": "",
+        "vice_president": "Democratic"
+    },
+    {
+        "order": "37",
+        "name": "",
+        "lifespan": "Richard Nixon(1913–1994)[68]",
+        "term": "January 20, 1969–August 9, 1974[h]",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "38",
+        "name": "",
+        "lifespan": "Gerald Ford(1913–2006)[69]",
+        "term": "August 9, 1974[u]–January 20, 1977",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "39",
+        "name": "",
+        "lifespan": "Jimmy Carter(1924–2024)[70]",
+        "term": "January 20, 1977–January 20, 1981",
+        "party": "",
+        "vice_president": "Democratic"
+    },
+    {
+        "order": "40",
+        "name": "",
+        "lifespan": "Ronald Reagan(1911–2004)[71]",
+        "term": "January 20, 1981–January 20, 1989",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "41",
+        "name": "",
+        "lifespan": "George H. W. Bush(1924–2018)[72]",
+        "term": "January 20, 1989–January 20, 1993",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "42",
+        "name": "",
+        "lifespan": "Bill Clinton(b.1946)[73]",
+        "term": "January 20, 1993–January 20, 2001",
+        "party": "",
+        "vice_president": "Democratic"
+    },
+    {
+        "order": "43",
+        "name": "",
+        "lifespan": "George W. Bush(b.1946)[74]",
+        "term": "January 20, 2001–January 20, 2009",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "44",
+        "name": "",
+        "lifespan": "Barack Obama(b.1961)[75]",
+        "term": "January 20, 2009–January 20, 2017",
+        "party": "",
+        "vice_president": "Democratic"
+    },
+    {
+        "order": "45",
+        "name": "",
+        "lifespan": "Donald Trump(b.1946)1st term[76]",
+        "term": "January 20, 2017–January 20, 2021",
+        "party": "",
+        "vice_president": "Republican"
+    },
+    {
+        "order": "46",
+        "name": "",
+        "lifespan": "Joe Biden(b.1942)[77]",
+        "term": "January 20, 2021–January 20, 2025",
+        "party": "",
+        "vice_president": "Democratic"
+    },
+    {
+        "order": "47",
+        "name": "",
+        "lifespan": "Donald Trump(b.1946)2nd term[76]",
+        "term": "January 20, 2025–Incumbent",
+        "party": "",
+        "vice_president": "Republican"
+    }
+]
