@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Iris",
+        "url": "https://archive.ics.uci.edu/dataset/53/iris",
+        "description": "A small classic dataset from Fisher, 1936. One of the earliest known datasets used for evaluating classification methods.",
+        "task": "Classification",
+        "data_type": "Tabular",
+        "instances": "150 Instances",
+        "features": "4 Features"
+    },
+    {
+        "name": "Heart Disease",
+        "url": "https://archive.ics.uci.edu/dataset/45/heart+disease",
+        "description": "4 databases: Cleveland, Hungary, Switzerland, and the VA Long Beach",
+        "task": "Classification",
+        "data_type": "Multivariate",
+        "instances": "303 Instances",
+        "features": "13 Features"
+    },
+    {
+        "name": "Wine Quality",
+        "url": "https://archive.ics.uci.edu/dataset/186/wine+quality",
+        "description": "Two datasets are included, related to red and white vinho verde wine samples, from the north of Portugal. The goal is to model wine quality based on physicochemical tests (see [Cortez et al., 2009], http://www3.dsi.uminho.pt/pcortez/wine/).",
+        "task": "Classification, Regression",
+        "data_type": "Multivariate",
+        "instances": "4.9K Instances",
+        "features": "12 Features"
+    },
+    {
+        "name": "Breast Cancer Wisconsin (Diagnostic)",
+        "url": "https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic",
+        "description": "Diagnostic Wisconsin Breast Cancer Database.",
+        "task": "Classification",
+        "data_type": "Multivariate",
+        "instances": "569 Instances",
+        "features": "30 Features"
+    },
+    {
+        "name": "Bank Marketing",
+        "url": "https://archive.ics.uci.edu/dataset/222/bank+marketing",
+        "description": "The data is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit (variable y).",
+        "task": "Classification",
+        "data_type": "Multivariate",
+        "instances": "45.21K Instances",
+        "features": "17 Features"
+    },
+    {
+        "name": "Adult",
+        "url": "https://archive.ics.uci.edu/dataset/2/adult",
+        "description": "Predict whether annual income of an individual exceeds $50K/yr based on census data. Also known as \"Census Income\" dataset.",
+        "task": "Classification",
+        "data_type": "Multivariate",
+        "instances": "48.84K Instances",
+        "features": "14 Features"
+    },
+    {
+        "name": "Student Performance",
+        "url": "https://archive.ics.uci.edu/dataset/320/student+performance",
+        "description": "Predict student performance in secondary education (high school).",
+        "task": "Classification, Regression",
+        "data_type": "Multivariate",
+        "instances": "649 Instances",
+        "features": "33 Features"
+    },
+    {
+        "name": "Online Retail",
+        "url": "https://archive.ics.uci.edu/dataset/352/online+retail",
+        "description": "This is a transactional data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.",
+        "task": "Classification, Clustering",
+        "data_type": "Multivariate, Sequential, Time-Series",
+        "instances": "541.91K Instances",
+        "features": "6 Features"
+    },
+    {
+        "name": "Wine",
+        "url": "https://archive.ics.uci.edu/dataset/109/wine",
+        "description": "Using chemical analysis to determine the origin of wines",
+        "task": "Classification",
+        "data_type": "Tabular",
+        "instances": "178 Instances",
+        "features": "13 Features"
+    },
+    {
+        "name": "Car Evaluation",
+        "url": "https://archive.ics.uci.edu/dataset/19/car+evaluation",
+        "description": "Derived from simple hierarchical decision model, this database may be useful for testing constructive induction and structure discovery methods.",
+        "task": "Classification",
+        "data_type": "Multivariate",
+        "instances": "1.73K Instances",
+        "features": "6 Features"
+    }
+]
