@@ -21,4 +21,6 @@ python_list = [1,2,3,4,5]
 numy_array_from_list2 = np.array(python_list, dtype=float)
 print(numy_array_from_list2) # array([1., 2., 3., 4., 5.])
 
-
+# Creating boolean numpy arrays
+numpy_bool_array = np.array([0, 1, -1, 0, 0], dtype=bool)
+print(numpy_bool_array) # array([False,  True,  True, False, False])
