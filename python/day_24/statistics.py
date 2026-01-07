@@ -74,3 +74,28 @@ two_dimensional_list = np.array([[0, 1, 2], [3, 4, 5], [6, 7, 8]])
 
 print('The size:', numpy_array_from_list.size) # 5
 print('The size:', two_dimensional_list.size)  # 3
+
+# Math operation using numpy functions
+# Addition
+numpy_array_from_list = np.array([1, 2, 3, 4, 5])
+print('original array: ', numpy_array_from_list)
+ten_plus_original = numpy_array_from_list  + 10
+print(ten_plus_original)
+
+# Subtraction
+numpy_array_from_list = np.array([1, 2, 3, 4, 5])
+print('original array: ', numpy_array_from_list)
+ten_minus_original = numpy_array_from_list  - 10
+print(ten_minus_original)
+
+# Multiplication
+numpy_array_from_list = np.array([1, 2, 3, 4, 5])
+print('original array: ', numpy_array_from_list)
+ten_multiply_original = numpy_array_from_list  * 10
+print(ten_multiply_original)
+
+# Division
+numpy_array_from_list = np.array([1, 2, 3, 4, 5])
+print('original array: ', numpy_array_from_list)
+ten_division_original = numpy_array_from_list  / 10
+print(ten_division_original)
