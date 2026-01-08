@@ -67,3 +67,10 @@ print(int_array)
 print(int_array.dtype)
 print(float_array)
 print(float_array.dtype)
+
+# Size of a numpy array
+numpy_array_from_list = np.array([1, 2, 3, 4, 5])
+two_dimensional_list = np.array([[0, 1, 2], [3, 4, 5], [6, 7, 8]])
+
+print('The size:', numpy_array_from_list.size) # 5
+print('The size:', two_dimensional_list.size)  # 3
