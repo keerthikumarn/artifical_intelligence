@@ -120,3 +120,16 @@ numpy_bool_arr = np.array([-3, -2, 0, 1,2,3], dtype='bool')
 print(numpy_int_arr.dtype)
 print(numpy_float_arr.dtype)
 print(numpy_bool_arr.dtype)
+
+# Converting types
+# int to float
+numpy_int_arr =  np.array([5,6,7,8], dtype = 'float')
+print(numpy_int_arr)
+
+# float to int
+numpy_float_arr = np.array([1., 2., 3., 4.], dtype = 'int')
+print(numpy_float_arr)
+
+# Int to boolean
+numpy_bool_arr = np.array([-3, -2, 0, 1,2,3], dtype='bool')
+print(numpy_bool_arr)
