@@ -133,3 +133,9 @@ print(numpy_float_arr)
 # Int to boolean
 numpy_bool_arr = np.array([-3, -2, 0, 1,2,3], dtype='bool')
 print(numpy_bool_arr)
+
+# Int to string
+numpy_str_arr = numpy_float_arr.astype('int').astype('str')
+print(numpy_str_arr)
+
+
