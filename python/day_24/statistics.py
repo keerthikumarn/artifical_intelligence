@@ -168,3 +168,9 @@ print(first_two_rows_and_cols)
 
 #Reversing the whole array
 print(two_dimension_array[::-1, ::-1])
+
+# How to represent missing values ?
+print(two_dimension_array)
+two_dimension_array[1,1] = 55
+two_dimension_array[1,2] =44
+print(two_dimension_array)
