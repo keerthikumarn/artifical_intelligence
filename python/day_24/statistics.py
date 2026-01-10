@@ -165,3 +165,6 @@ print('Third column: ', third_column)
 two_dimension_array = np.array([[1,2,3],[4,5,6], [7,8,9]])
 first_two_rows_and_cols = two_dimension_array[0:2, 0:2]
 print(first_two_rows_and_cols)
+
+#Reversing the whole array
+print(two_dimension_array[::-1, ::-1])
