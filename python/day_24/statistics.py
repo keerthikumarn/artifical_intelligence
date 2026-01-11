@@ -190,7 +190,9 @@ print(first_shape)
 reshaped = first_shape.reshape(3,2)
 print(reshaped)
 
-
+# Flattened
+flattened = reshaped.flatten()
+print(flattened)
 
 
 
