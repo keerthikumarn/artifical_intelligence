@@ -174,3 +174,23 @@ print(two_dimension_array)
 two_dimension_array[1,1] = 55
 two_dimension_array[1,2] =44
 print(two_dimension_array)
+
+# numpy_zeroes
+numpy_zeroes = np.zeros((3,3),dtype=int,order='C')
+print(numpy_zeroes)
+
+# numpy_ones
+numpy_ones = np.ones((3,3),dtype=int,order='C')
+print(numpy_ones)
+
+
+
+
+
+
+
+
+
+
+
+
