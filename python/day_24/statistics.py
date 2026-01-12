@@ -201,6 +201,15 @@ print(np_list_one + np_list_two)
 print('Horizontal Append :', np.hstack((np_list_one, np_list_two)))
 print('vertical Append :', np.vstack((np_list_one, np_list_two)))
 
+# Generating random numbers
+random_float_num = np.random.random()
+print(random_float_num)
+
+# Generate a random float  number
+random_floats = np.random.random(5)
+print(random_floats)
+
+
 
 
 
