@@ -217,6 +217,14 @@ print(random_int)
 random_int = np.random.randint(2,10, size=5)
 print(random_int)
 
+# Generating a random integers between 0 and 10
+random_int = np.random.randint(2,10, size=(3,3))
+print(random_int)
+
+# np.random.normal(mu, sigma, size)
+normal_array = np.random.normal(79, 15, 90)
+print(normal_array)
+
 
 
 
