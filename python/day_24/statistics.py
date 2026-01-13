@@ -209,8 +209,13 @@ print(random_float_num)
 random_floats = np.random.random(5)
 print(random_floats)
 
+# Generating a random integers between 0 and 10
+random_int = np.random.randint(0, 11)
+print(random_int)
 
-
+# Generating a random integers between 2 and 11, and creating a one row array
+random_int = np.random.randint(2,10, size=5)
+print(random_int)
 
 
 
