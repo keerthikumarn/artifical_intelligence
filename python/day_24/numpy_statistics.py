@@ -17,3 +17,13 @@ print(four_by_four_matrix)
 
 np.asarray(four_by_four_matrix)[2] = 2
 print(four_by_four_matrix)
+
+# Numpy numpy.arange()
+'''
+Sometimes, you want to create values that are evenly spaced within a defined interval. For instance, you want to create values from 1 to 10; you can use numpy.arange() function
+'''
+
+# creating list using range(starting, stop, step)
+lst = range(0, 11, 2)
+for l in lst:
+    print(l)
