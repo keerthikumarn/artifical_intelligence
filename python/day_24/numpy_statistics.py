@@ -27,3 +27,13 @@ Sometimes, you want to create values that are evenly spaced within a defined int
 lst = range(0, 11, 2)
 for l in lst:
     print(l)
+    
+# Similar to range arange numpy.arange(start, stop, step)
+whole_numbers = np.arange(0, 20, 1)
+print(whole_numbers)
+
+natural_numbers = np.arange(1, 20, 1)
+print(natural_numbers)
+
+odd_numbers = np.arange(1, 20, 2)
+print(odd_numbers)
