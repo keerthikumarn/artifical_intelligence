@@ -37,3 +37,16 @@ print(natural_numbers)
 
 odd_numbers = np.arange(1, 20, 2)
 print(odd_numbers)
+
+even_numbers = np.arange(2, 20, 2)
+print(even_numbers)
+
+# Creating sequence of numbers using linspace
+np.linspace(1.0, 5.0, num=10)
+# to check the size of an array
+x = np.array([1,2,3], dtype=np.complex128)
+print(x)
+
+# indexing and Slicing NumPy Arrays in Python
+np_list = np.array([(1,2,3), (4,5,6)])
+print(np_list)
