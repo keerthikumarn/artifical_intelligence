@@ -59,4 +59,11 @@ np_normal_dis
 print('min: ', two_dimension_array.min())
 print('max: ', two_dimension_array.max())
 print('mean: ',two_dimension_array.mean())
+
+print(two_dimension_array)
+print('Column with minimum: ', np.amin(two_dimension_array,axis=0))
+print('Column with maximum: ', np.amax(two_dimension_array,axis=0))
+print('=== Row ==')
+print('Row with minimum: ', np.amin(two_dimension_array,axis=1))
+print('Row with maximum: ', np.amax(two_dimension_array,axis=1))
 print('sd: ', two_dimension_array.std())
