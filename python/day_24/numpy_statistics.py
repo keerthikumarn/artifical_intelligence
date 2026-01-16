@@ -67,3 +67,11 @@ print('=== Row ==')
 print('Row with minimum: ', np.amin(two_dimension_array,axis=1))
 print('Row with maximum: ', np.amax(two_dimension_array,axis=1))
 print('sd: ', two_dimension_array.std())
+
+# repeating sequences
+arr =[1 ,2, 5]
+print('Tile:   ', np.tile(arr, 3))
+
+# Repeat each element of 'a' two times
+print('Repeat: ', np.repeat(arr, 3))
+
