@@ -50,3 +50,13 @@ print(x)
 # indexing and Slicing NumPy Arrays in Python
 np_list = np.array([(1,2,3), (4,5,6)])
 print(np_list)
+
+# NumPy Statistical Functions with Example
+two_dimension_array = np.array([[1,2,3],[4,5,6], [7,8,9]])
+np_normal_dis = np.random.normal(5, 0.5, 100)
+np_normal_dis
+## min, max, mean, sd
+print('min: ', two_dimension_array.min())
+print('max: ', two_dimension_array.max())
+print('mean: ',two_dimension_array.mean())
+print('sd: ', two_dimension_array.std())
