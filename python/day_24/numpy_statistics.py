@@ -83,3 +83,15 @@ print(r)
 # Generating random numbers
 normal_arr = np.random.normal(79, 15, 80)
 print(normal_arr)
+
+sns.set()
+plt.hist(normal_array, color="grey", bins=50)
+
+np_normal_dis = np.random.normal(5, 0.5, 100)
+np_normal_dis
+## min, max, mean, median, sd
+print('min: ', two_dimension_array.min())
+print('max: ', two_dimension_array.max())
+print('mean: ',two_dimension_array.mean())
+# print('median: ', two_dimension_array.median())
+print('sd: ', two_dimension_array.std())
