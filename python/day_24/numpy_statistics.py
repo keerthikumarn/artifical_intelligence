@@ -75,3 +75,11 @@ print('Tile:   ', np.tile(arr, 3))
 # Repeat each element of 'a' two times
 print('Repeat: ', np.repeat(arr, 3))
 
+# Random numbers between [0,1) of shape 2,3
+r = np.random.random(size=[2,3])
+print(r)
+
+
+# Generating random numbers
+normal_arr = np.random.normal(79, 15, 80)
+print(normal_arr)
