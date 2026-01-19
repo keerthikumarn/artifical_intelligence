@@ -42,3 +42,16 @@ data = [
 df = pd.DataFrame(data, columns=['Names','Country','City'])
 print(df)
 
+# Creating DataFrame Using Dictionary
+dataset = {'Name': ['Keerthi Kumar', 'Gautam', 'Raghav'], 'Country':[
+    'India', 'UK', 'France'], 'City': ['Bangalore', 'Stockholm', 'Antibes']}
+df = pd.DataFrame(dataset)
+print(df)
+
+# Creating DataFrames from a List of Dictionaries
+data = [
+    {'Name': 'Keerthi Kumar', 'Country': 'India', 'City': 'Bangalore'},
+    {'Name': 'Raghav Nayak', 'Country': 'UK', 'City': 'London'},
+    {'Name': 'Vineeth', 'Country': 'France', 'City': 'Antibes'}]
+df = pd.DataFrame(data)
+print(df)
