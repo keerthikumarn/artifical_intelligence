@@ -25,3 +25,20 @@ keerthi_dict = {'first_name':'Keerthi', 'last_name':'Kumar', 'country':'India','
 s = pd.Series(keerthi_dict)
 print(s)
 
+# Creating a Constant Pandas Series
+s = pd.Series(10, index = [1, 2, 3])
+print(s)
+
+# Creating a Pandas Series Using Linspace
+s = pd.Series(np.linspace(5, 20, 10)) # linspace(starting, end, items)
+print(s)
+
+# Creating DataFrames from List of Lists
+data = [
+    ['Keerthi Kumar', 'India', 'Bangalore'],
+    ['Pradeep', 'India', 'Shivmogga'],
+    ['Gautam', 'India', 'Mangalore']
+]
+df = pd.DataFrame(data, columns=['Names','Country','City'])
+print(df)
+
