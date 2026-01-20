@@ -61,3 +61,10 @@ data_frame = pd.read_csv('weight-height.csv')
 print(data_frame)
 print(data_frame.head()) #prints first 5 rows from the dataset
 print(data_frame.tail()) #prints last 5 rows from the dataset
+print(data_frame.shape)
+print(data_frame.columns)
+heights = data_frame['Height'] # new series
+print(heights)
+weights = data_frame['Weight'] # new series
+print(weights)
+print(len(heights) == len(weights))
