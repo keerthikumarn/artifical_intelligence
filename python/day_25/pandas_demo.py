@@ -55,3 +55,9 @@ data = [
     {'Name': 'Vineeth', 'Country': 'France', 'City': 'Antibes'}]
 df = pd.DataFrame(data)
 print(df)
+
+# Reading CSV File Using Pandas
+data_frame = pd.read_csv('weight-height.csv')
+print(data_frame)
+print(data_frame.head()) #prints first 5 rows from the dataset
+print(data_frame.tail()) #prints last 5 rows from the dataset
