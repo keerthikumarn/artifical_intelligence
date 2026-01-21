@@ -68,3 +68,14 @@ print(heights)
 weights = data_frame['Weight'] # new series
 print(weights)
 print(len(heights) == len(weights))
+print(heights.describe()) # give statistical information about height data 
+print(weights.describe()) # give statistical information about weight data
+print(data_frame.describe())  # describe can also give statistical information from a dataFrame
+
+# Creating a DataFrame
+data = [
+    {"Name": "Keerthi Kumar", "Country":"India","City":"Bangalore"},
+    {"Name": "Chenna Reddy", "Country":"UK","City":"London"},
+    {"Name": "Raghav Nayak", "Country":"Sweden","City":"Stockholm"}]
+df = pd.DataFrame(data)
+print(df)
