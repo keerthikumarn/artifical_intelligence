@@ -79,3 +79,8 @@ data = [
     {"Name": "Raghav Nayak", "Country":"Sweden","City":"Stockholm"}]
 df = pd.DataFrame(data)
 print(df)
+
+# Adding a new column
+weights = [74, 78, 69]
+df['Weight'] = weights
+print(df)
