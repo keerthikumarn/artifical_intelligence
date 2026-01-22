@@ -93,7 +93,7 @@ print(df)
 df['Height'] = df['Height'] * 0.03
 print(df)
 
-#function to calculate bmi
+# Function to calculate bmi
 def calculate_bmi ():
     weights = df['Weight']
     heights = df['Height']
@@ -104,4 +104,11 @@ def calculate_bmi ():
     return bmi
 
 bmi = calculate_bmi()
+df['BMI'] = bmi
 print("BMI value: ", bmi)
+
+# Formatting DataFrame columns
+''' The BMI column values of the DataFrame are float with many significant digits after decimal. Let's change it to one significant digit after point.'''
+df['BMI'] = round(df['BMI'],1)
+print(df)
+
