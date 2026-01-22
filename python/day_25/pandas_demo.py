@@ -112,3 +112,20 @@ print("BMI value: ", bmi)
 df['BMI'] = round(df['BMI'],1)
 print(df)
 
+# adding few more columns with data
+birth_year = ['1985', '1983', '1987']
+current_year = pd.Series(2020, index=[0, 1,2])
+df['Birth Year'] = birth_year
+df['Current Year'] = current_year
+print(df)
+
+# Changing the data types
+df['Birth Year'] = df['Birth Year'].astype('int')
+print(df['Birth Year'].dtype) # Check the data type now
+
+df['Current Year'] = df['Current Year'].astype('int')
+df['Current Year'].dtype
+
+# Compute the age now
+df['ages'] = df['Current Year'] - df['Birth Year']
+print(df)
