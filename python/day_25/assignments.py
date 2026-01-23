@@ -28,3 +28,18 @@ print("\nTitle column (Series):")
 titles = df["title"]
 print(titles)
 
+# 4. Count rows and columns
+rows, cols = df.shape
+print(f"\nNumber of rows: {rows}")
+print(f"Number of columns: {cols}")
+
+# 5. Filter titles containing 'python' (case-insensitive)
+python_titles = df[df['title'].str.contains("python", case=False, na=False)]
+print("\nTitles containing 'Python':")
+print(python_titles["title"])
+
+# 5. Filter titles containing 'javascript' (case-insensitive)
+js_titles = df[df['title'].str.contains("javascript", case=False, na=False)]
+print("\nTitles containing 'javascript':")
+print(js_titles["title"])
+
