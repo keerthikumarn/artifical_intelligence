@@ -129,3 +129,6 @@ df['Current Year'].dtype
 # Compute the age now
 df['ages'] = df['Current Year'] - df['Birth Year']
 print(df)
+
+# Boolean Indexing
+print(df[df['ages'] > 36])
