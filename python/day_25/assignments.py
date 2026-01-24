@@ -10,6 +10,8 @@ Explore the data and make sense of it
 '''
 import pandas as pd
 import numpy as np
+from collections import Counter
+import re
 
 # Reading CSV File Using Pandas
 df = pd.read_csv('hacker_news.csv')
@@ -56,3 +58,9 @@ print(df.columns)
 print("\nMissing Values:")
 print(df.isnull().sum())
 
+print("\nTop 10 most common words in titles:")
+
+all_words = " ".join(df["title"].dropna()).lower()
+words = re.findall(r"\b\w+\b", all_words)
+common_words = Counter(words).most_common(10)
+print(common_words)
