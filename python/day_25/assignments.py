@@ -43,3 +43,16 @@ js_titles = df[df['title'].str.contains("javascript", case=False, na=False)]
 print("\nTitles containing 'javascript':")
 print(js_titles["title"])
 
+# Exploring the data
+print("\nDataset Info:")
+print(df.info())
+
+print("\nSummary Statistics:")
+print(df.describe(include="all"))
+
+print("\nColumn Names:")
+print(df.columns)
+
+print("\nMissing Values:")
+print(df.isnull().sum())
+
