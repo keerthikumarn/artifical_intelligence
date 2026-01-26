@@ -7,6 +7,15 @@
   </head>
 
   <body>
-    <h1>Welcome to the world of web development using Python and Flask !</h1>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About Us</a></li>
+    </ul>
+    <h1>Welcome to {{name}}</h1>
+     <ul>
+    {% for tech in techs %}
+      <li>{{tech}}</li>
+    {% endfor %}
+    </ul>
   </body>
 </html>
