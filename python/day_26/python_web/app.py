@@ -4,11 +4,13 @@ Python is a general purpose programming language and it can be used for many pla
 Flask
 Flask is a web development framework written in Python. Flask uses Jinja2 template engine. Flask can be also used with other modern front libraries such as React.
 '''
-# let's import the flask
 from flask import Flask, render_template, request, redirect, url_for
 import os # importing operating system module
 
 app = Flask(__name__)
+# to stop caching static file
+app.config['SEND_FILE_MAX_AGE_DEFAULT'] = 0
+
 
 @app.route('/') # this decorator create the home route
 def home ():
@@ -21,11 +23,19 @@ def about():
     name = '30 Days Of Python Programming'
     return render_template('about.html', name = name, title = 'About Us')
 
-@app.route('/post')
+@app.route('/result')
+def result():
+    return render_template('result.html')
+
+@app.route('/post', methods= ['GET','POST'])
 def post():
     name = 'Text Analyzer'
-    return render_template('post.html', name = name, title = name)
-
+    if request.method == 'GET':
+         return render_template('post.html', name = name, title = name)
+    if request.method =='POST':
+        content = request.form['content']
+        print(content)
+        return redirect(url_for('result'))
 
 if __name__ == '__main__':
     # for deployment
