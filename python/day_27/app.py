@@ -20,6 +20,10 @@ students = [
 
 for student in students:
    db.students.insert_one(student)
+   
+# MongoDB Find
+student_data = db.students.find_one()
+print(student_data)
 
 app = Flask(__name__)
 if __name__ == '__main__':
