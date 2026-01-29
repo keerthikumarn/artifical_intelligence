@@ -1,6 +1,7 @@
 from flask import Flask, render_template
 import os
 from pymongo import MongoClient
+from bson.objectid import ObjectId # id object
 
 MONGODB_URI = "mongodb+srv://admin:mydb123@python-in-30-days.coxwj7q.mongodb.net/"
 client = MongoClient(MONGODB_URI)
@@ -24,6 +25,10 @@ for student in students:
 # MongoDB Find
 student_data = db.students.find_one()
 print(student_data)
+
+print("Finding the student by id")
+student_data_id = db.students.find_one({'_id':ObjectId('699e85b86f0dabf4bcb37e0c')})
+print(student_data_id)
 
 app = Flask(__name__)
 if __name__ == '__main__':
