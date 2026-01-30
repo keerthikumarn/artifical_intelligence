@@ -30,6 +30,11 @@ print("Finding the student by id")
 student_data_id = db.students.find_one({'_id':ObjectId('699e85b86f0dabf4bcb37e0c')})
 print(student_data_id)
 
+print("Sorting students list by age")
+students = db.students.find().sort('age')
+for student in students:
+    print(student)
+
 app = Flask(__name__)
 if __name__ == '__main__':
    port = int(os.environ.get("PORT", 5002))
