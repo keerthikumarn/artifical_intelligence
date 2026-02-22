@@ -84,3 +84,24 @@ print(df)
 weights = [74, 78, 69]
 df['Weight'] = weights
 print(df)
+
+heights = [173, 175, 169]
+df['Height'] = heights
+print(df)
+
+# Modifying column values
+df['Height'] = df['Height'] * 0.03
+print(df)
+
+#function to calculate bmi
+def calculate_bmi ():
+    weights = df['Weight']
+    heights = df['Height']
+    bmi = []
+    for w,h in zip(weights, heights):
+        b = w/(h*h)
+        bmi.append(b)
+    return bmi
+
+bmi = calculate_bmi()
+print("BMI value: ", bmi)
